@@ -1,0 +1,11 @@
+syntax = "proto3";
+package danielfarina.cryptstartr.cryptstartr;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/daniel-farina/cryptstartr/x/cryptstartr/types";
+
+// GenesisState defines the cryptstartr module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}

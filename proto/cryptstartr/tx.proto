@@ -1,0 +1,13 @@
+syntax = "proto3";
+package danielfarina.cryptstartr.cryptstartr;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/daniel-farina/cryptstartr/x/cryptstartr/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
